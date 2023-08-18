@@ -1,0 +1,120 @@
+:root{
+  --textHeadingWhite: #ffffff;
+  --textHeadingBlack: #1f1f1f;
+  --textParaBlack: #000000; 
+  --textParaBlack25: #00000040; 
+  --textParaBlackLight: #454545; 
+  --textParaGrey: #848484; 
+  --backgroundGreen: #3AC4B2; 
+  --backgroundGreen05: rgba(58, 196, 178, 0.1); 
+  --backgroundGreenHover: #41d6c2; 
+  --backgroundBrown: #D6CCC3;         
+  --backgroundLightGrey: #FAFAFA;    
+  --backgroundGrey: #5b5b5b;
+  --backgroundButonGrey: #d9d9d9;
+  --backgroundButonDarkHover: #26211f;
+  --backgroundButonDark: #413735;
+  --borderLightGrey: #e6e6e6;
+  --transition03s: .3s all ease-in-out;    
+  --transition1s: 1s all ease-in-out;    
+  --transition01s: .1s all ease-in; 
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul{
+  list-style-type: none;
+}
+
+button{
+  font-family: PoppinsMedium;
+  font-size: 22px;
+}
+
+a{
+  text-decoration: none;
+}
+/* unvisited link */
+a:link, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+.contain{
+  display: grid;
+  /* grid-template-columns: ; */
+}
+
+.seperatorLine{
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  margin-block:47px;
+}
+.mb-0{
+  margin-block:0px;
+}
+
+.Toastify__toast-container {
+  margin-top: 80px;
+}
+
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: PoppinsMedium;
+  src: url(./assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(./assets/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: PoppinsBold;
+  src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: ComfortaaRegular;
+  src: url(./assets/fonts/Comfortaa-Regular.ttf);
+}
+@font-face {
+  font-family: ComfortaaBold;
+  src: url(./assets/fonts/Comfortaa-Bold.ttf);
+}
+@font-face {
+  font-family: InterBold;
+  src: url(./assets/fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: HindiLight;
+  src: url(./assets/fonts/HindMadurai-Light.ttf);
+}
+@font-face {
+  font-family: HindiRegular;
+  src: url(./assets/fonts/HindMadurai-Regular.ttf);
+}
+@font-face {
+  font-family: HindiMedium;
+  src: url(./assets/fonts/HindMadurai-Medium.ttf);
+}
+@font-face {
+  font-family: HindiSemiBold;
+  src: url(./assets/fonts/HindMadurai-SemiBold.ttf);
+}
+@font-face {
+  font-family: HindiBold;
+  src: url(./assets/fonts/HindMadurai-Bold.ttf);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
